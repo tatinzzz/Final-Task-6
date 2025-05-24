@@ -15,7 +15,6 @@
 
 # 3. Get all documents where "actor" includes Brad Pitt.
 - Code: db.movies.find({actors:"Brad Pitt"})
-
 ![image](https://github.com/user-attachments/assets/0ae108f3-9d41-4813-842e-5de5fef3fd67)
 
 
@@ -60,8 +59,6 @@
 
 ![image](https://github.com/user-attachments/assets/7ed914a8-f4d5-418d-9735-6e609206a763)
 
-
-![image]()
 
 
 ## 3. Add an actor named "Samuel L. Jackson" to the movie "Pulp Fiction"
@@ -138,35 +135,43 @@ Code: db.movies.find({$and:[{synopsis:{$regex:"Bilbo"}}, {synopsis:{$not:/Gandal
 # Query
 ## 1. Find all users
 - db.users.find().pretty()
+  
 ![image](https://i.imgur.com/tB1Cs8K.png)
 
 ## 2. Find all posts
 - db.posts.find().pretty()
+  
 ![image](https://i.imgur.com/Qvgvqr7.png)
 
 ## 3. Find all posts authored by "GoodGuyGreg"
 - db.posts.find({username: "GoodGuyGreg"})
+  
 ![image](https://i.imgur.com/xQBlTr0.png)
 
 ## 4. Find all posts authored by "ScumbagSteve"
 - db.posts.find({username: "ScumbagSteve"})
+  
 ![image](https://i.imgur.com/X5bmp5X.png)
 
 ## 5. Find all comments
 - db.comments.find().pretty()
+  
 ![image](https://i.imgur.com/noVf8in.png)
 
 ## 6. Find all comments authored by "GoodGuyGreg"
 - db.comments.find({username: "GoodGuyGreg"})
+  
 ![image](https://i.imgur.com/45dFDMS.png)
 
 
 ## 7. Find all comments authored by "ScumbagSteve"
 - db.comments.find({username: "ScumbagSteve"})
+  
 ![image](https://i.imgur.com/wiBZtM1.png)
 
 ## 8. Find all comments belonging to the post "Reports a bug in your code"
 - db.comments.find({post: ObjectId("682862155750a49fa77b8e7b")})
+
 
 ![image](https://i.imgur.com/m3TbiTA.png)
 
