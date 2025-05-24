@@ -1,4 +1,4 @@
-# Fianl-Task-6
+# Fianl-Task-6 - MongoDB Practice
 
 # Query
 ## 1. Get all documents.
