@@ -1,6 +1,6 @@
 # Fianl-Task-6 - MongoDB Practice
 
-# Query
+# Queries
 ## 1. Get all documents.
 - Code: db.movies.find()
 - ![image](https://github.com/user-attachments/assets/4bf30c69-dccd-4854-9d49-63a4c84593e9)
